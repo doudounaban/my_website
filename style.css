@@ -1,0 +1,124 @@
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+/* article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*/
+
+h1{
+    color: tomato;
+}
+
+a{
+    color:blue;
+    font-size: 18px;
+    line-height: 1.5;
+    
+}
+
+a:hover{
+    color: orange;
+}
+
+h3{    
+    font-size: 24px;
+    border-top: 3px solid royalblue;
+}
+
+p{
+    border-bottom: 3px solid royalblue;
+    
+}
+
+.top{
+    z-index: 50;
+    box-sizing: border-box;
+    position: fixed;
+    display: flex;
+    left: 0px;
+    top: 0px;
+    width: 100vw;
+    height: 64px;
+    padding: 0px 16px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 15%) 0px 0px 10px;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.top-left{
+    margin-right: auto;
+    display: grid;
+    gap: 12px;
+    grid-template-columns: max-content 1fr max-content;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.top-view{
+    display: block;
+}
+.threeline{
+    width: 32px;
+    height: 32px;
+    background: url(https://raw.githubusercontent.com/doudounaban/my_website/3bc489a46effb1bcdba9c6b2b7df410f41590578/img/view.svg) center center no-repeat;
+}
+.button{
+    border: none;
+    padding: 0px;
+    border-radius: 0px;
+    outline: 0px;
+    cursor: pointer;
+    user-select: none;
+    appearance: none;
+}
+.indeximg{
+    background: url(https://image1.gamme.com.tw/news2/2011/56/89/p56Yn6Oakp_W.jpg) center center / 148px 40px no-repeat;
+    width: 148px;
+    height: 40px;
+}
